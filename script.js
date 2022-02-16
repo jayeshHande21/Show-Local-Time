@@ -1,8 +1,9 @@
 const clock = document.querySelector("#clock");
 
-setInterval(function(){
+setInterval(fento,1000)
 
+function fento(){
     const date = new Date();
 
     clock.innerHTML = date.toLocaleTimeString()
-} , 1000)
+};
